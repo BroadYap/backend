@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/bramvx/Documents/GitHub/.github/BroadYap/BroadYap.csproj": {}
+    "/Users/bramvx/Documents/GitHub/backend/BroadYap/BroadYap.csproj": {}
   },
   "projects": {
-    "/Users/bramvx/Documents/GitHub/.github/BroadYap/BroadYap.csproj": {
+    "/Users/bramvx/Documents/GitHub/backend/BroadYap/BroadYap.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bramvx/Documents/GitHub/.github/BroadYap/BroadYap.csproj",
+        "projectUniqueName": "/Users/bramvx/Documents/GitHub/backend/BroadYap/BroadYap.csproj",
         "projectName": "BroadYap",
-        "projectPath": "/Users/bramvx/Documents/GitHub/.github/BroadYap/BroadYap.csproj",
+        "projectPath": "/Users/bramvx/Documents/GitHub/backend/BroadYap/BroadYap.csproj",
         "packagesPath": "/Users/bramvx/.nuget/packages/",
-        "outputPath": "/Users/bramvx/Documents/GitHub/.github/BroadYap/obj/",
+        "outputPath": "/Users/bramvx/Documents/GitHub/backend/BroadYap/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/bramvx/.nuget/NuGet/NuGet.Config"

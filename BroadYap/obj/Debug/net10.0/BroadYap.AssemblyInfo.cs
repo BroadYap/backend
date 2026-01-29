@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BroadYap")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66f2ae09a4963d9ccda9e4b1b43714c43709dc92")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e180372f1c53ac6652ccfd120a2415f31e5a977a")]
 [assembly: System.Reflection.AssemblyProductAttribute("BroadYap")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BroadYap")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

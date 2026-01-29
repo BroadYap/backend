@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  broadyap-api:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: broadyap-api
+    ports:
+      - "8080:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+    volumes:
+      - ./BroadYap:/app/src
+    networks:
+      - broadyap-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 5s
+
+networks:
+  broadyap-network:
+    driver: bridge

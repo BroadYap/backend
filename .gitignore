@@ -1,0 +1,73 @@
+# Visual Studio
+.vs/
+.vscode/
+*.sln.iml
+
+# Build results
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.so
+*.dylib
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Local environment
+.env
+.env.local
+.env.*.local
+appsettings.Development.json
+
+# OS files
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# Node (if using npm for frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+*.db
+*.sqlite
+*.sqlite3
+
+# OS-specific
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# Package
+dist/
+build/
