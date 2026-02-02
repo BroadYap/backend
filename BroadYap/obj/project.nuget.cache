@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "DwGD4fB2YcE=",
+  "dgSpecHash": "eN3VNyl/Rlo=",
   "success": true,
   "projectFilePath": "/Users/bramvx/Documents/GitHub/backend/BroadYap/BroadYap.csproj",
   "expectedPackageFiles": [
+    "/Users/bramvx/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
     "/Users/bramvx/.nuget/packages/microsoft.aspnetcore.openapi/10.0.2/microsoft.aspnetcore.openapi.10.0.2.nupkg.sha512",
-    "/Users/bramvx/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512"
+    "/Users/bramvx/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512",
+    "/Users/bramvx/.nuget/packages/mysqlconnector/2.5.0/mysqlconnector.2.5.0.nupkg.sha512"
   ],
   "logs": []
 }

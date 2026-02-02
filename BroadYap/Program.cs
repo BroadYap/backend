@@ -8,6 +8,15 @@ builder.Services.AddSignalR();
 builder.Services.AddOpenApi();
 
 builder.Services.AddSingleton<SharedDb>();
+// Replace with builder pattern for different db connections later
+builder.Services.AddSingleton<MySQLConnection>();
+
+builder.Services.AddScoped<IUserRepository, MySQLUserRepository>();
+builder.Services.AddScoped<IAuthOptionRepository, MySQLAuthOptionRepository>();
+builder.Services.AddScoped<IRefreshTokenRepository, MySQLRefreshTokenRepository>();
+builder.Services.AddScoped<PasswordHasher>();
+builder.Services.AddScoped<IAuthenticationStrategy, PasswordStrategy>();
+builder.Services.AddScoped<AuthenticationService>();
 
 if (builder.Environment.IsDevelopment())
 {
@@ -29,14 +38,14 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
-    app.UseHttpsRedirection();
     app.UseCors("dev");
 }
+else
+{
+    app.UseHttpsRedirection();
+}
 
-app.UseHttpsRedirection();
 app.UseRouting();
-app.UseCors("reactapp");
-
 app.MapControllers();
 app.MapHub<ChatHub>("/chat");
 

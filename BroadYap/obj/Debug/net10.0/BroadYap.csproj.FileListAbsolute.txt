@@ -41,8 +41,10 @@
 /Users/bramvx/Documents/GitHub/backend/BroadYap/bin/Debug/net10.0/BroadYap.runtimeconfig.json
 /Users/bramvx/Documents/GitHub/backend/BroadYap/bin/Debug/net10.0/BroadYap.dll
 /Users/bramvx/Documents/GitHub/backend/BroadYap/bin/Debug/net10.0/BroadYap.pdb
+/Users/bramvx/Documents/GitHub/backend/BroadYap/bin/Debug/net10.0/BCrypt.Net-Next.dll
 /Users/bramvx/Documents/GitHub/backend/BroadYap/bin/Debug/net10.0/Microsoft.AspNetCore.OpenApi.dll
 /Users/bramvx/Documents/GitHub/backend/BroadYap/bin/Debug/net10.0/Microsoft.OpenApi.dll
+/Users/bramvx/Documents/GitHub/backend/BroadYap/bin/Debug/net10.0/MySqlConnector.dll
 /Users/bramvx/Documents/GitHub/backend/BroadYap/obj/Debug/net10.0/BroadYap.csproj.AssemblyReference.cache
 /Users/bramvx/Documents/GitHub/backend/BroadYap/obj/Debug/net10.0/rpswa.dswa.cache.json
 /Users/bramvx/Documents/GitHub/backend/BroadYap/obj/Debug/net10.0/BroadYap.GeneratedMSBuildEditorConfig.editorconfig
